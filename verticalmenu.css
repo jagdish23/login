@@ -1,0 +1,106 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(./images/HD-wallpaper-best-for-laptop-shiva.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+    background-color: rgba(19, 173, 225, 0.139);
+    width: 10%;
+    height: 100vh;
+}
+#cont{
+    margin: 0px;
+    list-style-type: none;
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+    border-bottom: 2px solid white;
+}
+a:hover{
+    color: white;
+    background-color: rgb(236, 93, 236);
+    font-size: 20px;
+    transition: 0.5s;
+}
+/* #menu{
+    list-style-type: none;
+    padding: 0px;
+    background-color: rgba(201, 244, 7, 0.561);
+    position: relative;
+    display: none;
+} */
+
+#drop{
+    position: relative;
+}
+#menu{
+    list-style-type: none;
+    padding: 0px;
+    background-color: rgba(201, 244, 7, 0.561);
+    position: absolute;
+    top: 0px;
+    left: 148px;
+    display: none;
+}
+#drop:hover #menu{
+    display: block;
+
+}
+#ip{
+    position: relative;
+}
+#ipmenu{
+    list-style-type: none;
+    padding: 0px;
+    background-color: brown;
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    width: 125%;
+    display: none;
+   
+}
+#ip:hover #ipmenu{
+    display: block;
+}
+
+#a{
+    position: relative;
+}
+#amenu{
+    list-style-type: none;
+    padding: 0;
+    background-color: rgba(232, 19, 136, 0.784);
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    width: 155%;
+    display: none;
+}
+#a:hover #amenu{
+    display: block;
+}
+
+#b{
+    position: relative;
+}
+#bmenu{
+    list-style-type: none;
+    padding: 0;
+    background-color: rgba(19, 221, 232, 0.784);
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    width: 155%;
+    display: none;
+}
+
+#b:hover #bmenu{
+    display: block;
+}
